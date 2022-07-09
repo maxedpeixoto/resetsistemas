@@ -55,15 +55,14 @@
 }
 
 .main_cta .main_cta_content {
-    width: 1366px;
+    width: 1100px;
     margin: 0 auto;
     display: flex;
-    align-items: stretch;
 }
 
-.main_cta .main_cta_content img {
+.main_cta .main_cta_content header {
     display: flex;
-    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .main_cta .main_cta_content h1 {
@@ -71,16 +70,24 @@
     color: #FFF;
     font-weight: 700;
     text-align: left;
-    position: relative;
-    z-index: 2;
+    text-shadow: 0 0 5px #000;
 }
 
-.main_cta .main_cta_content p {
+.main_cta .main_cta_content div p {
     font-size: 1.5em;
     color: #FFF;
     font-weight: 300;
     text-align: left;
-    margin: 20px 0;
+    margin: 20px 0 35px 0;
+}
+
+.main_cta .main_cta_content div div p {
+    font-size: 1.5em;
+    color: #FFF;
+    font-weight: 300;
+    text-align: left;
+    margin: 20px 0 35px 0;
+    text-shadow: 0 0 5px #000;
 }
 
 .main_cta .main_cta_content .btn {
@@ -93,4 +100,9 @@
     border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
+}
+
+.main_cta .main_cta_content .btn:hover {
+    background-color: #5753A6;
+    color: #FFF;
 }
