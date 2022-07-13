@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 76.9 76.7" style="enable-background:new 0 0 76.9 76.7;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:url(#SVGID_2_);}
+	.st2{fill:#FFFFFF;}
+</style>
+<radialGradient id="SVGID_1_" cx="-732.6106" cy="372.9344" r="44.899" gradientTransform="matrix(2.0833 0 0 -2.0833 1555.1364 853.0088)" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#FFDD55"/>
+	<stop  offset="0.328" style="stop-color:#FF543F"/>
+	<stop  offset="0.348" style="stop-color:#FC5245"/>
+	<stop  offset="0.504" style="stop-color:#E64771"/>
+	<stop  offset="0.643" style="stop-color:#D53E91"/>
+	<stop  offset="0.761" style="stop-color:#CC39A4"/>
+	<stop  offset="0.841" style="stop-color:#C837AB"/>
+</radialGradient>
+<path class="st0" d="M59.4,76l-41.7,0C8.5,76,1,68.5,1,59.4l0-41.7C1,8.5,8.5,1,17.6,1l41.7,0C68.5,1,76,8.5,76,17.6l0,41.7
+	C76,68.5,68.5,76,59.4,76z"/>
+<radialGradient id="SVGID_2_" cx="-740.2046" cy="259.4221" r="29.813" gradientTransform="matrix(2.0833 0 0 -1.3881 1555.1364 360.1419)" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#4168C9"/>
+	<stop  offset="0.999" style="stop-color:#4168C9;stop-opacity:0"/>
+</radialGradient>
+<path class="st1" d="M59.4,76l-41.7,0C8.5,76,1,68.5,1,59.4l0-41.7C1,8.5,8.5,1,17.6,1l41.7,0C68.5,1,76,8.5,76,17.6l0,41.7
+	C76,68.5,68.5,76,59.4,76z"/>
+<path class="st2" d="M38.5,53.1c-8,0-14.6-6.5-14.6-14.6s6.5-14.6,14.6-14.6s14.6,6.5,14.6,14.6S46.5,53.1,38.5,53.1z M38.5,28.1
+	c-5.7,0-10.4,4.7-10.4,10.4s4.7,10.4,10.4,10.4s10.4-4.7,10.4-10.4S44.2,28.1,38.5,28.1z"/>
+<circle class="st2" cx="54.1" cy="22.9" r="3.1"/>
+<path class="st2" d="M51,65.6H26c-8,0-14.6-6.5-14.6-14.6V26c0-8,6.5-14.6,14.6-14.6h25c8,0,14.6,6.5,14.6,14.6v25
+	C65.6,59,59,65.6,51,65.6z M26,15.6c-5.7,0-10.4,4.7-10.4,10.4v25c0,5.7,4.7,10.4,10.4,10.4h25c5.7,0,10.4-4.7,10.4-10.4V26
+	c0-5.7-4.7-10.4-10.4-10.4H26z"/>
+</svg>

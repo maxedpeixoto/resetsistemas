@@ -1,3 +1,4 @@
+/*LOGO*/
 .main_header {
     width: 100%;
     background-color: #5753A6;
@@ -48,7 +49,7 @@
     display: flex;
 }
 
-/*CTA*/
+/*BANNER + CTA*/
 
 .main_cta {
     background-color: #5753A6;
@@ -121,13 +122,14 @@
     max-width: 1100px;
     margin: 0 auto;
     display: flex;
+    padding: 30px 0;
 }
 
 .main_quem_somos header h1 {
     text-align: center;
     font-size: 2.2em;
     color: #5753A6;
-    margin: 30px auto;
+    margin-bottom: 20px;
 }
 
 .main_quem_somos .main_quem_somos_content {
@@ -154,7 +156,7 @@
 /*NOSSOS SEGMENTOS*/
 
 .main_segmentos_background {
-    background-color: ;
+    background-color: #FCFCFC;
 }
 
 .main_segmentos {
@@ -162,12 +164,13 @@
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    padding: 30px 0;
 }
 
 .main_segmentos header {
     flex-basis: 100%;
     text-align: center;
-    margin: 30px auto;
+    margin-bottom: 30px;
 }
 
 .main_segmentos header h1 {
@@ -189,18 +192,19 @@
 .main_segmentos_article article {
     flex-basis: calc(20% - 20px);
     margin: auto 0 15px 0;
-    padding: 10px 0;
+    padding: 10px 0 0 0;
 }
 
 .main_segmentos_article article:hover {
-    border-radius: 10%;
-    -webkit-box-shadow: 1px 1px 30px 0px rgba(50, 50, 50, 0.42);
-    -moz-box-shadow: 1px 1px 30px 0px rgba(50, 50, 50, 0.42);
-    box-shadow: 1px 1px 30px 0px rgba(50, 50, 50, 0.42); 
+    border-radius: 20px;
+    -webkit-box-shadow: 1px 1px 30px 0px rgba(50, 50, 50, 0.2);
+    -moz-box-shadow: 1px 1px 30px 0px rgba(50, 50, 50, 0.2);
+    box-shadow: 1px 1px 30px 0px rgba(50, 50, 50, 0.2); 
 }
 
 .main_segmentos_article article img {
     width: 100%;
+    padding: 10px 50px;
 }
 
 .main_segmentos_article article h2 {
@@ -212,7 +216,7 @@
 /*NOSSAS FERRAMENTAS*/
 
 .main_ferramentas_background {
-    background-color: ;
+    background-color: #FCFCFC;
 }
 
 .main_ferramentas {
@@ -221,13 +225,13 @@
     display: flex;
     flex-basis: 100%;
     flex-wrap: wrap;
+    padding: 30px 0;
 }
 
 .main_ferramentas header {
     flex-basis: 100%;
     text-align: center;
-    margin: 30px auto;
-    background-color: yellow;
+    margin-bottom: 30px;
 }
 
 .main_ferramentas header h1 {
@@ -246,9 +250,8 @@
 }
 
 .main_ferramentas .main_ferramentas_article article {
-
-    flex-basis: calc(50% - 40px);
-    margin: 0 20px;
+    flex-basis: calc(40% - 40px);
+    margin: 0 auto;
 }
 
 .main_ferramentas .main_ferramentas_article h2 {
@@ -259,10 +262,118 @@
 
 .main_ferramentas .main_ferramentas_article article img {
     width: 100%;
-    max-height: 600px;
-    opacity: 0.7;
+    max-height: 500px;
+    opacity: 0.8;
 }
 
 .main_ferramentas .main_ferramentas_article article img:hover {
     opacity: 1;
+}
+
+/*ENTRE EM CONTATO*/
+.entre_em_contato_background {
+    background-color: #5753A6;
+}
+
+.entre_em_contato {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.entre_em_contato header {
+    margin: 0 auto;
+    padding: 30px 0;
+}  
+
+.entre_em_contato_texto {
+    padding: 0 10px;
+}
+
+.entre_em_contato .entre_em_contato_texto h1 {
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.entre_em_contato .entre_em_contato_texto .whatsapp {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 0;
+    margin: 20px auto;
+    justify-content: center;
+    max-width: 500px;border-radius: 2em;
+    -webkit-box-shadow: 1px 1px 30px 0px rgba(50, 50, 50, 0.2);
+    -moz-box-shadow: 1px 1px 30px 0px rgba(50, 50, 50, 0.2);
+    background-color: limegreen;
+    color: white;
+}
+
+.entre_em_contato .entre_em_contato_texto .whatsapp:hover{
+    border-radius: 2em;
+    -webkit-box-shadow: 1px 1px 30px 0px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow: 1px 1px 30px 0px rgba(50, 50, 50, 0.5);
+    background-color: #2FC22F;
+    color: white;
+}
+
+.entre_em_contato .entre_em_contato_texto .email {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 0;
+    margin: 20px auto;
+    justify-content: center;
+    max-width: 500px;border-radius: 2em;
+    -webkit-box-shadow: 1px 1px 30px 0px rgba(50, 50, 50, 0.2);
+    -moz-box-shadow: 1px 1px 30px 0px rgba(50, 50, 50, 0.2);
+    background-color: #2196F3;
+    color: white;
+}
+
+.entre_em_contato .entre_em_contato_texto .email:hover{
+    border-radius: 2em;
+    -webkit-box-shadow: 1px 1px 30px 0px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow: 1px 1px 30px 0px rgba(50, 50, 50, 0.5);
+    background-color: #0b7ad1;
+    color: white;
+}
+
+.entre_em_contato .entre_em_contato_texto .instagram {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 0;
+    margin: 20px auto;
+    justify-content: center;
+    max-width: 500px;border-radius: 2em;
+    -webkit-box-shadow: 1px 1px 30px 0px rgba(50, 50, 50, 0.2);
+    -moz-box-shadow: 1px 1px 30px 0px rgba(50, 50, 50, 0.2);
+    background-color: #ea6c96;
+    color: white;
+}
+
+.entre_em_contato .entre_em_contato_texto .instagram:hover{
+    border-radius: 2em;
+    -webkit-box-shadow: 1px 1px 30px 0px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow: 1px 1px 30px 0px rgba(50, 50, 50, 0.5);
+    background-color: #e1306c;
+    color: white;
+}
+
+.entre_em_contato .entre_em_contato_texto h2 {
+    font-size: 1.3em;
+    margin: auto 0;
+}
+
+.entre_em_contato .entre_em_contato_texto img {
+    width: 50px;
+    margin: auto 20px;
+}
+
+/*FOOTER*/
+footer p {
+    margin: 0 auto;
+    padding: 5px 0;
+    text-align: center;
+    color: white;
+    background-color: #1C1C1C;
 }
